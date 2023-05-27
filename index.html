@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanimation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            color: black;
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            background: url(bhanuanime.jpg);
+            margin: 25px 20px;
+            height: 1480px;
+        }
+
+        .navbar {
+            /* background-color: gray; */
+            /* border-radius: 33px; */
+        }
+
+        .left {
+            /* border: 2px red solid; */
+            float: left;
+            display: block;
+            margin: -20px 0px;
+            margin-right: 100px;
+        }
+
+        .left img {
+            height: 60px;
+            width: 120px;
+            padding: 0PX 5PX;
+            margin: 4px -2px;
+            /* border: 2px gray solid; */
+            border-radius: 28px;
+        }
+
+        .mid {
+            /* border: 2px green solid; */
+            display: inline-block;
+            width: 575px;
+            margin: -20px 47px;
+            /* color: white; */
+        }
+
+        .mid ul {
+            overflow: auto;
+        }
+
+        .mid li {
+            list-style: none;
+            float: left;
+        }
+
+        .mid li a {
+            position: sticky;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            padding: 0px 5px;
+            margin: 5px 25px;
+        }
+
+        .home {
+            color: black !important;
+            text-decoration: underline 4px !important;
+        }
+
+        .mid li a:hover {
+            color: white;
+            text-decoration: underline 4px;
+        }
+
+        .right {
+            /* border: 2px blue solid; */
+            float: right;
+            display: inline-block;
+            margin: -20px 0px;
+            padding: 15px 20px
+        }
+
+
+        .container1 {
+            /* border: 2px orange solid; */
+            font-family: 'Courier New', Courier, monospace;
+            display: block;
+            text-align: center;
+            color: white;
+            width: 500px;
+            margin: 200px auto;
+            margin-bottom: 50px;
+        }
+
+        .container3 {
+            /* border: 2px orange solid; */
+            font-family: 'Courier New', Courier, monospace;
+            display: block;
+            text-align: center;
+            color: white;
+            width: 1000px;
+            margin: 290px auto;
+        }
+
+        .container2 {
+            /* border: 2px orange solid; */
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            opacity: 0.8;
+            display: block;
+            color: white;
+            width: 300px;
+            margin: 350px 442px 10px 953px;
+            padding: 20px 20px;
+            text-align: center;
+        }
+        
+        .container2 div {
+            margin: 4px 4px;
+            padding: 5px 5px;
+        }
+        
+        .name {
+            /* border: 2px red solid; */
+            background-color: white;
+            color:black;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .container3:hover,
+        .container1:hover {
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .btn {
+            /* border: 2px black solid; */
+            border-radius: 10px;
+            background-color: white;
+            font-family: 'Baloo Bhai';
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            /* border: 2px black solid; */
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            font-family: 'Baloo Bhai';
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <img src="bhanimation-logo.png" alt="">
+            </div>
+            <div class="mid">
+                <ul>
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Email us</button>
+                <button class="btn">Call us</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container1">
+        <h2>Bhanu Pratap singh</h2>
+        <p>web Developer</p>
+    </div>
+    <div class="container2">
+        Enter Your Details
+        <form action="nobackend.php">
+            <div> <input type="text" class="name" placeholder="Enter Your Name"></div>
+            <div><input type="text" class="name" placeholder="Enter Your Email"></div>
+            <div><input type="text" class="name" placeholder="Enter Your Number"></div>
+            <div><input type="text" class="name" placeholder="Enter Your Locality"></div>
+            <div><button class="btn">submit</button></div>
+        </form>
+    </div>
+    <div class="container3">
+        <h3>About</h3>
+        <p>That's great! Being a web developer is an exciting and constantly evolving field. Whether you're just
+            starting out or already have some experience, I can provide you with information and guidance on various
+            aspects of web development. Feel free to ask me anything related to web development, such as programming
+            languages, frameworks, tools, best practices, or specific problems you're facing. How can I assist you
+            today?</p>
+    </div>
+</body>
+
+</html>
